@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<link rel="stylesheet" href="project.css">
+<script src="https://kit.fontawesome.com/f1ea0ac130.js" crossorigin="anonymous"></script>
+<body>
+    <div class="container">
+        <div class="navbar" id="navbarDialog">
+            <ol class="nav">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+            </ol>
+            </div>
+        <div class="nav">
+            <ul> 
+                <li><a href="#">My Project List</a> </li>
+                <hr>
+                    <li id="Weather" class="pro" onmouseover="showDetails('Wreport')" onmouseout="hideDetails()"><a href="#">Weather</a></li>
+                    <li id="Music" class="pro" onmouseover="showDetails('play')" onmouseout="hideDetails()"><a href="#">Music</a></li>
+                    <li id="Python" class="pro" onmouseover="showDetails('py')" onmouseout="hideDetails()"><a href="#">Python</a></li>
+                    <li id="Java" class="pro" onmouseover="showDetails('js')" onmouseout="hideDetails()"><a href="#">Java</a></li>
+                    <li id="IoT" class="pro" onmouseover="showDetails('iot')" onmouseout="hideDetails()"><a href="#">IoT</a></li>
+                    <li id="UI" class="pro" onmouseover="showDetails('ui')" onmouseout="hideDetails()"><a href="#">UI Designs</a></li>
+            </ul>
+                
+        <div class="hover-content" id="tooltip"></div>
+        </div>
+        
+        <p id="learning "> Go GO .... Never stop ..! </p>
+    </div>
+</body>
+<script defer src="project.js"></script>
+</html>

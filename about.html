@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<script src="https://kit.fontawesome.com/f2357a20c2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="about.css">
+<body>
+   <div id="header">
+    <div class="container">
+        <nav> 
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Hire me</a></li>
+            </ul>
+        </nav>
+       
+        <div class="name">
+            <div class="text">
+            <p>Learner</p>
+            <h1>Hi, I'm <span>Anamika</span><br> Yadav </h1>
+            
+        </div>
+            <img src="intro.png" alt="">
+
+        </div>
+    </div>
+   </div>
+
+
+
+     <!--  about move page -->
+
+
+     
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img class ="img" src="bio.png">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">
+                    About Me
+                </h1>
+                <p>I am Instrumentation and control engineering student in Sant Longowal Institute of Engineering and Technology, Punjab.
+                </p>
+
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p> 
+                    <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick = "opentab('education')"> Education</p> 
+                    <p class="tab-links" onclick ="opentab('resume')" >Resume </p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End </span> <br>Designed interacting web interfaces</li>
+                        <li><span>Java </span> <br>Designed Text editor and Calculator</li>
+                        <li><span>Python</span> <br>Using easy way to code and for data visualizing</li>
+                        <li><span>DBMS</span> <br>Database Management to store & manipulate</li>
+                        <li><span>DSA in Java</span> <br>Solving problems using Java</li>
+                    </ul> 
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jun 2023- Jul 2023 </span> <br>Sofcon Training Institute</li>
+                        <li><span>June 2022 </span> <br>IoT Training in SLIET Longowal</li>
+                        <!-- <li><span></span> <br>Sofcon Training Institute</li> -->
+                    </ul> 
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelors of Engineering </span> <br>Sant Longowal Institute of Engineering and Technology, Longowal Punjab</li>
+                        <li><span>Intermediate</span> <br>St. Marys School, Mainpuri</li>
+                        <li><span>High School</span> <br>St.  Marys School, Mainpuri</li>
+                    </ul> 
+                </div>
+                <div class ="tab-contents" id ="resume">
+                    <ul>
+                        <li><a href="https://drive.google.com/file/d/1mVHtFgXUdtOLh4ZFrCofLkQF86CJ8ZV0/view?usp=sharing"><span>Resume</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!--  Contact me -->
+  
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" >Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>anamikayadavlp@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>1230210308
+                </p>
+                <div class="socialmedia">
+                    <a href="www.linkedin.com/in/anamika-yadav-990b47210"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" id="" required>
+                    <input type="email" name="email"  placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <script defer src="about.js"></script>
+</body>
+</html>
